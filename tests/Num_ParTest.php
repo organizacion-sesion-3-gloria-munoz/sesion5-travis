@@ -18,7 +18,7 @@ class Num_ParTest extends TestCase
 	
 	public function testMod()
 	{
-		$result = $this->calculator->mod(2);
-		$this->assertEquals(true,$result);
+		$result = $this->calculator->testMod(2);
+		$this->assertEquals('par',$result);
 	}
 }
