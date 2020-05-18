@@ -1,5 +1,5 @@
 <?php
-class NumPar
+class Num_Par
 {
 	public function Par(a)
 	{
