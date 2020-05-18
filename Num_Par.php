@@ -1,15 +1,15 @@
 <?php
 class Num_Par
 {
-	public function Par(a)
+	public function Par($a)
 	{
 		if (( $a % 2 == 0)
 		{
-			return true;
+			return 0;
 		}		
 		else
 		{
-			return false;
+			return 1;
 		}
 	}
 }
