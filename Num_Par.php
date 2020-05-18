@@ -1,9 +1,9 @@
 <?php
 class NumPar
 {
-	public function Par($a)
+	public function Par(a)
 	{
-		if (a%0==0)
+		if (( $a % 2 == 0)
 		{
 			return true;
 		}		
