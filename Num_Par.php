@@ -3,13 +3,13 @@ class Num_Par
 {
 	public function Par($a)
 	{
-		if (( $a % 2 == 0)
+		if ( $a % 2 == 0)
 		{
-			echo 'par';
+			echo "par";
 		}		
 		else
 		{
-			echo 'impar';
+			echo "impar";
 		}
 	}
 }
