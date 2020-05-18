@@ -5,11 +5,12 @@ class Num_Par
 	{
 		if (( $a % 2 == 0)
 		{
-			return 0;
+			echo 'par';
 		}		
 		else
 		{
-			return 1;
+			echo 'impar';
 		}
 	}
 }
+?>
