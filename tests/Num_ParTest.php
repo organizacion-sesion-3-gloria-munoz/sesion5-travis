@@ -4,7 +4,7 @@ require 'Num_Par.php';
 
 class Num_ParTest extends TestCase
 {
-	private $Num_Par;
+	private Num_Par;
 
 	protected function setUp()
 	{
