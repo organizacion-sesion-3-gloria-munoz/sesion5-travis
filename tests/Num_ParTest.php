@@ -2,8 +2,7 @@
 use PHPUnit\Framework\TestCase;
 require 'Num_Par.php';
 
-class Num_ParTest extends TestCase
-{
+class Num_ParTest extends TestCase{
 	private $numpar;
 
 	protected function setUp()
@@ -19,7 +18,6 @@ class Num_ParTest extends TestCase
 	public function testMod()
 	{
 		$result = $this ->Num_Par->mod(2);
-		$this->assertEquals(true, $result);
+		$this->assertEquals(true,$result);
 	}
-
 }
