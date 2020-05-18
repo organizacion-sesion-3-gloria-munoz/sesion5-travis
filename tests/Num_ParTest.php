@@ -21,6 +21,5 @@ class Num_ParTest extends TestCase
 		$result = $this ->Num_Par->mod(2);
 		$this->assertEquals(true, $result);
 	}
-		
 
 }
