@@ -4,21 +4,21 @@ require 'Num_Par.php';
 
 class Num_ParTest extends TestCase
 {
-	private $calculator;
+	private $Num_Par;
 
 	protected function setUp()
 	{
-		$this->calculator = new Num_Par();
+		$this->Num_Par = new Num_Par();
 	}
 	
 	protected function tearDown()
 	{
-		$this->calculator = NULL;	
+		$this->Num_Par = NULL;	
 	}
 	
 	public function testMod()
 	{
-		$result = $this->calculator->mod(2);
+		$result = $this->Num_Par->mod(2);
 		$this->assertEquals(true,$result);
 	}
 }
